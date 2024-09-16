@@ -1,0 +1,48 @@
+:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover {
+    color: #065E14;
+    border-color: #065E14;
+    background: #ffffff;
+}
+
+:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-primary,
+:where(.css-dev-only-do-not-override-qnu6hi).ant-btn-primary:not(:disabled):not(.ant-btn-disabled):hover {
+    color: #065E14;
+    border-color: #065E14;
+    background: #ffffff;
+}
+
+
+:where(.css-dev-only-do-not-override-qnu6hi).ant-input-outlined:focus,
+:where(.css-dev-only-do-not-override-qnu6hi).ant-input-outlined:focus-within,
+:where(.css-dev-only-do-not-override-qnu6hi).ant-input-outlined:hover,
+.filter-option label:where(.css-dev-only-do-not-override-qnu6hi).ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):first-child {
+    border-color: #065E14;
+}
+
+:where(.css-dev-only-do-not-override-qnu6hi).ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+    color: #ffffff;
+    background-color: #065E14;
+}
+
+:where(.css-dev-only-do-not-override-qnu6hi).ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled)::before {
+    background-color: #065E14;
+}
+
+.verified-text {
+    clip-path: polygon(0% 0%, 90% 0, 100% 50%, 90% 98%, 0% 100%);
+}
+
+.btn-mobile-contact span {
+    font-size: 13px;
+}
+
+.tablet .farmlandarea,
+.tablet .farmlandRoadDistance,
+.tablet .farmlandSoil,
+.tablet .farmlandAvailability {
+    flex: 30%
+}
+
+.landprofile .features {
+    flex: 1 0 33.33%
+}

@@ -1,5 +1,6 @@
 import React from 'react'
-import banner from '../../assets/banner.png'
+import banner from '../../assets/images/banner.png'
+import '../../assets/css/App.css'
 
 const HeadBanner = () => {
     return (
@@ -15,7 +16,7 @@ const HeadBanner = () => {
                     {/* Text Section */}
                     <div className="ms-20 mt-10">
                         <h1 className="text-4xl font-bold text-black">Find Your Dream Farmland</h1>
-                        <p className="mt-4 text-md text-[#333333]">
+                        <p className="mt-4 text-[#333333]">
                             Discover the ideal farmland for your agricultural needs with our comprehensive listings and advanced search filters.
                         </p>
                     </div>
