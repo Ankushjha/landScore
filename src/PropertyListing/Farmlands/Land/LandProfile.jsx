@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
 import '../../../assets/css/App.css'
-import farmland from '../../../assets/images/farmland.jpg'
-import { EnvironmentOutlined, HeartFilled, HeartOutlined, ShareAltOutlined, StarOutlined } from '@ant-design/icons'
-import { Button } from 'antd'
+import farmland from '../../../assets/images/farmland.jpg';
+import profile from '../../../assets/images/profile.jpg';
+import { EnvironmentOutlined, HeartFilled, HeartOutlined, RiseOutlined, ShareAltOutlined, StarOutlined } from '@ant-design/icons'
+import { Button } from 'antd';
 import { PiIslandDuotone } from "react-icons/pi";
 import { MdOutlineWaterDrop } from "react-icons/md";
 import { FaRoad } from "react-icons/fa";
@@ -87,8 +88,10 @@ const LandProfile = () => {
                                 <span className="text-gray-500 text-xs ml-2">₹ 3377/Sqft</span>
                             </div>
 
+                            {/* details of land property  */}
                             <div className="flex justify-between items-center flex-wrap">
                                 <div className='features mt-4 flex items-center'>
+                                    {/* Change these Icons to SVG or image provided  */}
                                     < PiIslandDuotone className='text-2xl me-2' />
                                     <div>
                                         <p className="text-xs font-light uppercase">Soil Type</p>
@@ -158,12 +161,32 @@ const LandProfile = () => {
                 </div>
                 {/* right side container  */}
                 <aside className='w-[20%] ps-5'>
-                    <div className="profile-container bg-[#F0FDF2] rounded-lg">
-                        profile
+                    {/* upper profile box  */}
+                    <div className="profile-container bg-[#F0FDF2] rounded-lg p-4">
+                        <div className="profile flex justify-between">
+                            <div className="profile-image text-center">
+                                <img src={profile} alt="Profile" className='w-12 rounded-full' />
+                                <p className='text-[#A0A0A0] text-xs'>Posted by</p>
+                            </div>
+
+                            <div className="rating mt-2">
+                                <span className="bg-[#FBBC05] text-sm py-1.5 px-3 rounded-full"> <StarOutlined />4.0</span>
+                            </div>
+                        </div>
+
+                        <p className='text-sm my-2'>Owner (1 week ago)</p>
+
+                        <Button size='large' className='my-2 bg-[#065E14] text-white' type='primary' block>Contact Owner</Button>
+                        <Button size='large'className='mt-2 border-[#065E14] border-1 text-[#065E14] font-semibold' block>Schedule Visit</Button>
                     </div>
 
-                    <div className="demand-details">
-                        deamnd
+                        {/* lower demand box  */}
+                    <div className="demand-details border-[#FBBC05] border-2 bg-[#FFF6E9]  rounded-xl mt-3 text-xs p-4">
+                        <p className=' text-[#616161]'><span className='text-[#3F8608]'> <RiseOutlined /> +2.3% high demand</span> (In last 10 days)</p>
+                        <ul className='list-disc m-3 mb-0 space-y-2'>
+                            <li>30 people are viewing this property</li>
+                            <li>5 inquiries have been made about this property in the last 24 hours</li>
+                        </ul>
                     </div>
                 </aside>
             </div>

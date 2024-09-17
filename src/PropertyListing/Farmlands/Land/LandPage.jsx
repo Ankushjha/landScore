@@ -1,6 +1,7 @@
 import { Breadcrumb } from 'antd'
 import React from 'react'
 import LandProfile from './LandProfile'
+import LandProfileMoreDetails from './LandProfileMoreDetails'
 
 const LandPage = () => {
     return (
@@ -18,6 +19,7 @@ const LandPage = () => {
 
             <div className="land-profile px-10 lg:px-20 py-5">
                 <LandProfile />
+                <LandProfileMoreDetails />
             </div>
         </>
     )

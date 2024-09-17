@@ -30,3 +30,104 @@ export const WHY_CHOOSE_OUR_APP = [
         description: "Benefit from user feedback and reviews to gauge property satisfaction and reliability"
     },
 ]
+
+
+export const LAND_DOCUMENT = [
+    {
+        title: "Title Deed",
+        verified: 100,
+        link: "#"
+    },
+    {
+        title: "Zonal Regulations",
+        verified: 100,
+        link: "#"
+    },
+    {
+        title: "Identity Proof of Seller",
+        verified: 100,
+        link: "#"
+    },
+    {
+        title: "Encumberance Certificate (EC)",
+        verified: 100,
+        link: "#"
+    },
+    {
+        title: "No Objection Certificate (NOCs)",
+        verified: 100,
+        link: "#"
+    },
+    {
+        title: "Sale Agreement",
+    },
+    {
+        title: "Patta (Land Ownership Document) and Chitta (Land Revenue Record)",
+        verified: 70,
+        link: "#"
+    },
+    {
+        title: "Survey Plan",
+        verified: 100,
+        link: "#"
+    },
+    {
+        title: "Registered Sale Deed",
+        verified: 100,
+        link: "#"
+    },
+    {
+        title: "Pahani or Adangal",
+        verified: 70,
+        link: "#"
+    },
+    {
+        title: "Power of Attorney(if applicable)",
+        verified: 100,
+    },
+    {
+        title: "Mutation Document",
+        verified: 100,
+    },
+    {
+        title: "Tax Receipts and Bills",
+        verified: 70,
+        link: "#",
+    },
+    {
+        title: "Land Conversion Certificate (if applicable)",
+        verified: 100,
+    },
+    {
+        title: "Approved Layout Plan",
+        verified: 70,
+        link: "#",
+    },
+    {
+        title: "Legal Opinion",
+        verified: 100,
+    },
+]
+
+export const PROPERTY_PRICE_DETAILS = [
+    {
+        title: "PROPERTY STATUS",
+        detail: "---",
+    },
+    {
+        title: "PRICE PER SQFT",
+        detail: "---",
+    },
+    {
+        title: "PRICE NEGOTIABLE",
+        detail: "Yes",
+    },
+    {
+        title: "BOUNDARY DISPUTES",
+        detail: "No",
+    },
+    {
+        title: "ANY LEGAL ISSUES ON LAND",
+        detail: "No",
+    },
+]
