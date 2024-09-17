@@ -1,3 +1,6 @@
+import user1 from './src/assets/images/user1.jpg'
+import user2 from './src/assets/images/user2.jpg'
+import user3 from './src/assets/images/user3.jpg'
 export const WHY_CHOOSE_OUR_APP = [
     {
         id: 1,
@@ -31,6 +34,33 @@ export const WHY_CHOOSE_OUR_APP = [
     },
 ]
 
+
+export const LAND_PROFILE_MORE_DETAILS_TABS = [
+    { id: 'basicDetails', label: 'Basic Details' },
+    { id: 'documents', label: 'Documents' },
+    { id: 'pricing', label: 'Pricing & Other' },
+    { id: 'transactions', label: 'Property Transactions' },
+    { id: 'marketRate', label: 'Market Rate' },
+];
+
+export const LAND_PROFILE_BASIC_DETAILS = [
+    { label: 'SURVEY NUMBER', value: '12345' },
+    { label: 'SOIL QUALITY', value: 'Good' },
+    { label: 'LENGTH', value: '---' },
+    { label: 'BREADTH', value: '---' },
+    { label: 'WATER SOURCE', value: 'Canal' },
+    { label: 'NO OF OPEN SIDES', value: '2' },
+    { label: 'BOUNDARY WALL', value: 'No' },
+    { label: 'CONSTRUCTION ALLOWED', value: 'Yes' },
+    { label: 'ANY CONSTRUCTION DONE?', value: 'Yes (Shed)' },
+    { label: 'TRANSPORTATION', value: 'Yes' },
+    { label: 'OWNERSHIP', value: '---' },
+    { label: 'APPROVED BY', value: 'GHMC' },
+    { label: 'ELECTRICITY', value: 'Yes' },
+    { label: 'TRANSACTION TYPE', value: 'Resale' },
+    { label: 'LEGAL STATUS', value: 'Verified' },
+    { label: 'PRONE TO ANY ENVIRONMENTAL CONDITIONS?', value: 'No' },
+];
 
 export const LAND_DOCUMENT = [
     {
@@ -130,4 +160,154 @@ export const PROPERTY_PRICE_DETAILS = [
         title: "ANY LEGAL ISSUES ON LAND",
         detail: "No",
     },
+]
+
+export const LAND_PROFILE_SIMILAR_LISTING_TABS = [
+    { id: 'agriculture', label: 'Agriculture Lands' },
+    { id: 'residential', label: 'Residential Lands' },
+    { id: 'commercial', label: 'Commercial Lands' },
+    { id: 'industrial', label: 'Industrial Lands' },
+    { id: 'others', label: 'Others' },
+];
+
+export const CUSTOMER_REVIEWS = [
+    {
+        user: "User 1",
+        comment: "Perfect location for investment, offering stunning views and easy access to amenities",
+        img: user1,
+    },
+    {
+        user: "User 2",
+        comment: "Excellent value for money; well-connected and ideal for farming.",
+        img: user2,
+    },
+    {
+        user: "User 3",
+        comment: "The land offers a great balance of natural beauty and proximity to city facilities.",
+        img: user3,
+    }
+]
+
+export const FOOTER_LINKS = [
+    {
+        title: "Property Listing",
+        menu: [
+            {
+                id: 1,
+                title: "Residential properties",
+                link: "#",
+            },
+            {
+                id: 2,
+                title: "Commercial properties",
+                link: "#",
+            },
+            {
+                id: 3,
+                title: "Plots",
+                link: "#",
+            },
+            {
+                id: 4,
+                title: "Farmlands",
+                link: "#",
+            },
+            {
+                id: 5,
+                title: "Industrial properties",
+                link: "#",
+            },
+        ]
+    },
+    {
+        title: "Company",
+        menu: [
+            {
+                id: 1,
+                title: "Home",
+                link: "#",
+            },
+            {
+                id: 2,
+                title: "About Us",
+                link: "#",
+            },
+            {
+                id: 2,
+                title: "Contact",
+                link: "#",
+            },
+        ]
+    },
+    {
+        title: "Resources",
+        menu: [
+            {
+                id: 1,
+                title: "Blog",
+                link: "#",
+            },
+            {
+                id: 2,
+                title: "Newsletter",
+                link: "#",
+            },
+            {
+                id: 3,
+                title: "Help centre",
+                link: "#",
+            },
+            {
+                id: 4,
+                title: "Support",
+                link: "#",
+            },
+        ]
+    },
+    {
+        title: "Social",
+        menu: [
+            {
+                id: 1,
+                title: "Twitter",
+                link: "#",
+            },
+            {
+                id: 2,
+                title: "LinkedIn",
+                link: "#",
+            },
+            {
+                id: 3,
+                title: "Facebook",
+                link: "#",
+            },
+        ]
+    },
+    {
+        title: "Legal",
+        menu: [
+            {
+                id: 1,
+                title: "Terms",
+                link: "#"
+            },
+            {
+                id: 2,
+                title: "Privacy",
+                link: "#"
+            },
+            {
+                id: 3,
+                title: "Cookies",
+                link: "#"
+            },
+            {
+                id: 4,
+                title: "Licenses",
+                link: "#"
+            },
+        ]
+    }
+
 ]

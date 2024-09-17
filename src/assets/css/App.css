@@ -46,3 +46,7 @@
 .landprofile .features {
     flex: 1 0 33.33%
 }
+
+.carousel-buttons button {
+    padding: 25px 20px;
+}
