@@ -7,6 +7,7 @@ const HeadBanner = () => {
         <>
             <div className="relative w-full h-[160px] bg-gradient-to-r from-[#B5CFB8] via-[#CBDCCE] to-[#E4E3DC] flex items-center justify-between overflow-hidden">
                 {/* Breadcrumb */}
+                {/* This is normal way there is another easy way to create breadcrumb using antd that i've used in land profile page  */}
                     <div className="absolute top-6 text-[#475467] ms-20" >
                         <p className="text-sm">
                             Home {">"} <span className="text-[#475467]">Property Listings</span> {">"} <span className="text-green-900">Farmlands</span>
