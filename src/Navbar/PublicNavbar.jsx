@@ -1,9 +1,11 @@
 import React from 'react'
 import { Button } from 'antd'
 import '../assets/css/App.css'
-import { Outlet } from 'react-router-dom'
+import { Outlet, useNavigate } from 'react-router-dom'
 
 const PublicNavbar = () => {
+    const navigate = useNavigate()
+
     return (
         <>
             <nav className='lg:flex block h-20 mx-20 items-center justify-between'>
@@ -34,7 +36,13 @@ const PublicNavbar = () => {
                     {/* <button className='rounded-md text-[#065E14] px-7 py-1 border border-[#065E14] hover:bg-[#fafafa]'>Signup</button>
                     <button className='rounded-md font-light px-7 py-1 text-white border bg-[#065E14] hover:bg-[#054a15]'>Login</button> */}
                     <Button className='btn px-7'>Signup</Button>
-                    <Button type='primary' className='btn bg-[#065E14] px-7 login-button text-white'>Login</Button>
+                    <Button
+                        type='primary'
+                        className='btn bg-[#065E14] px-7 login-button text-white'
+                        onClick={() => navigate("login")}
+                    >
+                        Login
+                    </Button>
                 </div>
             </nav>
 

@@ -28,6 +28,10 @@
     background-color: #065E14;
 }
 
+:where(.css-dev-only-do-not-override-qnu6hi).ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):first-child {
+    border-color: #065E14;
+}
+
 .verified-text {
     clip-path: polygon(0% 0%, 90% 0, 100% 50%, 90% 98%, 0% 100%);
 }
@@ -49,4 +53,34 @@
 
 .carousel-buttons button {
     padding: 25px 20px;
+}
+
+.redirect-login button {
+    padding: 25px 20px;
+}
+
+
+.addNewListingForm :where(.css-dev-only-do-not-override-qnu6hi).ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+    color: #000;
+    background-color: #F0FDF2;
+}
+
+:where(.css-dev-only-do-not-override-qnu6hi).ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+    border-color: #065E14;
+}
+
+:where(.css-dev-only-do-not-override-qnu6hi).ant-radio-button-wrapper:hover {
+    color: #065E14;
+}
+
+:where(.css-dev-only-do-not-override-qnu6hi).ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):hover {
+    border-color: #065E14;
+}
+
+.addNewListingForm :where(.css-dev-only-do-not-override-qnu6hi).ant-radio-button-wrapper:not(:first-child)::before {
+    width: 0;
+}
+
+.container-listing {
+    scrollbar-width: none;
 }
